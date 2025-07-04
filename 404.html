@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <meta name="generator" content="VuePress 2.0.0-rc.21" />
     <style>
       :root {
         --vp-c-bg: #fff;
@@ -19,25 +19,25 @@
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme')
-      const systemDarkMode =
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
         'matchMedia' in window
           ? window.matchMedia('(prefers-color-scheme: dark)').matches
           : false
 
-      if (userMode === 'light') {
+      if (useChoice === 'light') {
         document.documentElement.dataset.theme = 'light'
-      } else if (userMode === 'dark' || systemDarkMode) {
+      } else if (useChoice === 'dark' || systemStatus) {
         document.documentElement.dataset.theme = 'dark'
       }
     </script>
     <title>Melody Auth</title><meta name="description" content="Effortless OAuth and Authentication, Built for Flexibility and Control.">
-    <link rel="preload" href="/assets/style-tstkky8y.css" as="style"><link rel="stylesheet" href="/assets/style-tstkky8y.css">
-    <link rel="modulepreload" href="/assets/app-DlVa-irR.js"><link rel="modulepreload" href="/assets/404.html-Dj-IBVbx.js">
-    <link rel="prefetch" href="/assets/index.html-7m9qwiZu.js" as="script"><link rel="prefetch" href="/assets/admin-panel-setup.html-DkZ5hpjM.js" as="script"><link rel="prefetch" href="/assets/auth-server-configuration.html-DY48tvo_.js" as="script"><link rel="prefetch" href="/assets/auth-server-setup.html-DN1I3FS7.js" as="script"><link rel="prefetch" href="/assets/email-provider-setup.html-Ch7VWIne.js" as="script"><link rel="prefetch" href="/assets/q_a.html-PVfWBUW-.js" as="script"><link rel="prefetch" href="/assets/react-sdk.html-u0ne6DKx.js" as="script"><link rel="prefetch" href="/assets/s2s-api.html-BI327gfp.js" as="script"><link rel="prefetch" href="/assets/screenshots.html-CKIz2m11.js" as="script"><link rel="prefetch" href="/assets/sms-provider-setup.html-DNjjVbGq.js" as="script"><link rel="prefetch" href="/assets/social-sign-in-provider-setup.html-BcfWX6tX.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-gJ0odN_G.js" as="script">
+    <link rel="preload" href="/assets/style-5UBalbIg.css" as="style"><link rel="stylesheet" href="/assets/style-5UBalbIg.css">
+    <link rel="modulepreload" href="/assets/app-DJtHYifz.js"><link rel="modulepreload" href="/assets/404.html-soJcdpDg.js">
+    <link rel="prefetch" href="/assets/index.html-BzR9RQdJ.js" as="script"><link rel="prefetch" href="/assets/admin-panel-setup.html-DwpdwSC3.js" as="script"><link rel="prefetch" href="/assets/angular-sdk.html-B5iUymrP.js" as="script"><link rel="prefetch" href="/assets/auth-server-configuration.html-DHTp1_86.js" as="script"><link rel="prefetch" href="/assets/auth-server-setup.html-BuqireMO.js" as="script"><link rel="prefetch" href="/assets/deployment-pipelines.html-B_61v9re.js" as="script"><link rel="prefetch" href="/assets/email-provider-setup.html-BAmizyq3.js" as="script"><link rel="prefetch" href="/assets/embedded-auth-api.html-BG092RXg.js" as="script"><link rel="prefetch" href="/assets/q_a.html-Bx2ysD0-.js" as="script"><link rel="prefetch" href="/assets/react-sdk.html-DOHKKNtN.js" as="script"><link rel="prefetch" href="/assets/s2s-api.html-B2qxdufq.js" as="script"><link rel="prefetch" href="/assets/saml-sso-setup.html-Diwz6I2W.js" as="script"><link rel="prefetch" href="/assets/screenshots.html-BzUhFac1.js" as="script"><link rel="prefetch" href="/assets/sms-provider-setup.html-DTHGLMQZ.js" as="script"><link rel="prefetch" href="/assets/social-sign-in-provider-setup.html-DazPz6mC.js" as="script"><link rel="prefetch" href="/assets/vue-sdk.html-h6Lka3Ia.js" as="script"><link rel="prefetch" href="/assets/index.html-x6-WbYsm.js" as="script"><link rel="prefetch" href="/assets/admin-panel-setup.html-BJexylXz.js" as="script"><link rel="prefetch" href="/assets/angular-sdk.html-w0UnhAgo.js" as="script"><link rel="prefetch" href="/assets/auth-server-configuration.html-CpPhbfib.js" as="script"><link rel="prefetch" href="/assets/auth-server-setup.html-BXv5hs81.js" as="script"><link rel="prefetch" href="/assets/deployment-pipelines.html-DeeIXS36.js" as="script"><link rel="prefetch" href="/assets/email-provider-setup.html-uDg450Mg.js" as="script"><link rel="prefetch" href="/assets/embedded-auth-api.html-Cb34tzBE.js" as="script"><link rel="prefetch" href="/assets/q_a.html-Bqu00rWm.js" as="script"><link rel="prefetch" href="/assets/react-sdk.html-DDBX8Kzk.js" as="script"><link rel="prefetch" href="/assets/s2s-api.html-BZNLf-Qz.js" as="script"><link rel="prefetch" href="/assets/saml-sso-setup.html-DWpXN_tx.js" as="script"><link rel="prefetch" href="/assets/screenshots.html-BvJcKOrb.js" as="script"><link rel="prefetch" href="/assets/sms-provider-setup.html-BKtZkuZ_.js" as="script"><link rel="prefetch" href="/assets/social-sign-in-provider-setup.html-B2MtLwEX.js" as="script"><link rel="prefetch" href="/assets/vue-sdk.html-BOb5gg_w.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-8636ca9b><main class="page" data-v-8636ca9b><div vp-content data-v-8636ca9b><h1 data-v-8636ca9b>404</h1><blockquote data-v-8636ca9b>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/" data-v-8636ca9b>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-DlVa-irR.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DJtHYifz.js" defer></script>
   </body>
 </html>
